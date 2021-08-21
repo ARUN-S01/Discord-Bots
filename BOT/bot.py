@@ -212,15 +212,9 @@ async def on_message(message):
 
     elif message.content.startswith("/Who is Arun?"):
       await message.channel.send("He is my Boss")
-    elif message.content.startswith("/Who is big fraud?"):
-      await message.channel.send("/Kumaran , The guy Who made this group")
-    elif message.content.startswith("Who is nithin?"):
-      await message.channel.send("/The King of Frauds")
-    elif message.content.startswith("/Who is king of frauds?"):
-      await message.channel.send("/It's none other than NITHIN")
 
     elif message.content.startswith("/What is your name?"):
-      await message.channel.send("/KOF = King Of Frauds")
+      await message.channel.send("/KOF = King Of Friends")
 
     elif message.content.startswith("/Who are you?"):
       await message.channel.send("/I am your assistant deveoped by ARUN")
