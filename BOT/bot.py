@@ -143,9 +143,7 @@ async def on_message(message):
       await message.channel.send("Hey Good Morning")
     elif message.content.startswith("/gm"):
       await message.channel.send("/Hey Good Morning")
-    elif message.content.startswith("/Nithin BOT"):
-      await message.channel.send("/Fraud is Ready")
-    
+   
     elif message.content.startswith('/Who created you'):
         await message.channel.send("/I was created by ARUN")
     elif message.content.startswith('/Arun BOT'):
